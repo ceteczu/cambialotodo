@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Intercambio de Mercancías - Cambialotodo.com</title>
+    <link rel="icon" href="../icon/Cambialotodo.ico" type="image/x-icon">
+    <meta name="description" content="Intercambio de Mercancías y Compras en línea en Cambialo todo para los mejores Rompecabezas, Cubo Mágico, Juguetes, Pasatiempos, Artículos para Mascotas, Deportes al Aire Libre, Electrónica, Belleza y Salud, Arduino SCM, Accesorios de Apple, Iluminación, Luces, Jardín, Regalos para Fiestas." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="expires" content="-1" />
+    <meta content="m.cambialotodo.com" name="author" />
+    <meta content="1 days" name="revisit-after" />
+    <link rel="canonical" href="http://www.cambialotodo.com/" />
+    <script type="text/javascript" src="templates/default/js/jquery-1.9.1.min.js">
+    </script>
+    <link type="text/css" rel="stylesheet" href="templates/default/css/common.css" />
+    <link type="text/css" rel="stylesheet" href="templates/default/css/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body class="con_padding">
+    <div class="wrap">
+        <div class="header bBor">
+            <div class="fl"><a id="menu" class="menu"></a><a href="javascript:;" class="top_search search_click"></a></div>
+            <div class="logo"><a class="m_bg" title="cambialotodo" href="#"></a></div>
+            <span class="top_account"><a href="/customer/usercenter"></a></span>
+            <div class="fr det_fixed_r" onClick="javascrtpt:window.location.href='shoppingcart.do'"><span class="i_cart"></span></div>
+        </div>
+    </div>
+    <!--menu begin-->
+    <div class="wrap">
+        <div class="menu_cate">
+            <div class="cate_list">
+                <div class="sign_in" id="menu_welcome">
+                    <a href="#">Registrarse</a>
+                    <span>or</span>
+                    <a href="#">Unirse gratis</a>
+                </div>
+                <ul class="interval">
+                    <li><a href="#" class="menu1"><i></i>Home</a></li>
+                    <li><a href="#" class="menu2"><i></i>Categorías</a></li>
+                    <li><a href="#" class="menu3"><i></i>Ofertas Flash</a></li>
+                    <li><a href="#" class="menu9"><i></i>Cupones calientes</a></li>
+                </ul>
+                <ul class="interval">
+                    <li><a href="#" class="menu4"><i></i>Mis ordenes</a></li>
+                    <li><a href="#" class="menu5"><i></i>Lista de deseos</a></li>
+                </ul>
+                <ul class="interval">
+                    <!--langCurrencyMenu_start-->
+                    <li id="help"><a href="javascript:;" class="menu8"><i></i>Ayuda</a>
+                        <span class="help_cont">
+                            <a style="display:none;" href="#" target="_blank">Chat en vivo</a>
+                            <a href="#">Contáctenos</a>
+                        </span>
+                        <em class="arrow_3"><i></i></em>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--menu end-->
+    <script type="text/javascript">
+        _LC_EDIT_LIST = "Lista de edición";
+        _LC_WISHLIST_GROUP_NAME_EMPTY = "El nombre del grupo no puede estar vacío.";
+        _LC_SAVE = "Salvar";
+        _LC_BUY = "Comprar";
+        _LC_PRODUCT_OPTIONS = "Opciones de producto";
+        _LC_CANCEL = "Cancelar";
+        _LC_QUANTITY = "Cantidad";
+        _LC_CONTINUE = "Continuar";
+        _LC_SEARCH = "Buscar";
+        _LC_CLEAR_HISTORY = "Limpiar historial de búsqueda";
+        _LC_RECENT_SEARCHES = "Búsquedas recientes";
+        _LC_STOCK_MSG_OUT_OF_STOCK = "Actualmente no disponible";
+        _LC_PROCESSING = "Procesamiento";
+        _LC_LIST_SORT1 = "Popular";
+        _LC_VIEW_MORE = "Ver más";
+    </script>
+    <div class="wrap">
+        <div class="carouse_swipe">
+            <div class="product_img small_img" id="product_img">
+                <ul>
+                    <li><a href="#"><img title="" alt="" src="../images/es_RM10668_700x305.jpg" /></a></li>
+                    <li><a href="#"><img title="" alt="" src="../images/es_TV_Box-700x305-2867.jpg" /></a></li>
+                    <li><a href="#"><img title="" alt="" src="../images/en_700x305-P9000MAX.jpg" /></a></li>
+                    <li><a href="#"><img title="" alt="" src="../images/es_700x305.jpg"/></a></li>
+                    <li><a href="#"><img title="" alt="" src="../images/es_P10000-700x305.jpg" /></a></li>
+                </ul>
+            </div>
+            <ul class="carouse_btn">
+                <li class="prev"><i>anterior</i></li>
+                <li class="next"><i>siguiente</i></li>
+            </ul>
+            <ul class="carouse_tab">
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="templates/default/js/swipe.js">
+    </script>
+    <script type="text/javascript">
+        $(".carouse_swipe").Swipe({
+            auto: 3000,
+            continuous: true,
+            disableScroll: false,
+            startSlide: 0,
+            callback: function(pos) {}
+        });
+        $(function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 0);
+            $(window).resize(function() {
+                $(".carouse_swipe").Swipe({
+                    continuous: true,
+                    disableScroll: false,
+                    auto: 3000,
+                    startSlide: 0,
+                    callback: function(pos) {}
+                });
+            });
+        });
+    </script>
+    <div class="wrap">
+        <div class="new_flash">
+            <a href="#">
+                <strong>Lo más vendido</strong>
+                <span>Más</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/Y5151B-1-5a41-pYsG.jpg">
+                        <span>Bs.430,49
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Vespa eléctrica plegable de dos ruedas de XIAOMI M365</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/V4766EU-1-f7db-0o7A.jpg">
+                        <span>Bs.12,91
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Retevis Smart 40W / 8A 5 puertos USB Desktop Wall Charger</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/OS0187EU-1-4193-Z5Bv.jpg"">
+                        <span>Bs.172,19
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Kits de impresora 3D de alta precisión Anet A8 con filamento 10M</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/PZ0232G-US-1-861e-wLKU.jpg">
+                        <span>Bs.88,67
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">SHARP Z2 4G Smartphone 5.5 pulgadas 4GB RAM 32GB ROM</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/K6047-1-1-328e-JJkU.jpg">
+                        <span>Bs.40,03
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">KKmoon 7012B 7 pulgadas Universal Car MP5 Radio Player 2 Din HD con BT</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/PB0079B-1-8776-Aykc.jpg">
+                        <span>Bs.26,68
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">1Xiaomi Mi Band 3</em>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="new_flash">
+            <a href="#" class="new_flash_title">
+                <strong>Lo nuevo</strong>
+                <span>Más></span>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/PZ0284B-US-32-1-7afe-Lh3o.jpg">
+                        <span>Bs.123,98
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Lenovo S5 K520 4G Smartphone 3G RAM 32G ROM Face ID</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/Y8719B-1-aff1-WTkK.jpg">
+                        <span>Bs.7,74
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Pulsera inteligente 115PLUS</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/Y8407-1-2f92-UOkO.jpg">
+                        <span>Bs.4,3
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">EMS Smart Household Hip Trainer</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/H22243-1-b674-QIb5.jpg">
+                        <span>Bs.1,89
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">200pcs surtido de semillas de plantas de plantas suculentas raras</em>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="new_flash">
+            <a href="#" class="new_flash_title">
+                <strong>Productos que podrían gustarte</strong>
+                <span>Más></span>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/C3632-1-a045-UOj6.jpg">
+                        <span>Bs.172,19
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Colorido tarjeta gráfica NVIDIA GeForce GTX iGame 1050Ti GPU 4GB 128bit Gaming 4096M GDDR5</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/RM10203-1-1-ccbf-k3VE.jpg">
+                        <span>Bs.153,26
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">MJX Bugs 5W 5G WiFi FPV RC Drone Quadcopter con 3 baterías</em>
+                    </a></li>
+
+                <li>
+                    <a href="#">
+                        <img src="../images/PF0007R-US-32-1-1921-QCqU.jpg">
+                        <span>Bs.146,36
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Refurbished Apple iPhone 5C Smartphone-Unlocked- Good Condition</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/D5836B-1-c68f-VQQE.jpg">
+                        <span>Bs.162,73
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">SJCAM SJ8 PRO Action Camera 4K  60FPS WiFi Sports Cam</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/PZ0327GY-EU-1-5b44-EKcx.jpg">
+                        <span>Bs.223,85
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">Ulefone Power 5 4G Celular 6GB RAM 64GB ROM 13000mAh</em>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/RM7953B-14933631103312.jpg">
+                        <span>Bs.30,99
+                        </span>
+                        <em style="display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;padding: 1rem .8rem 0;">VISUO XS809W versión actualizada XS809HW 2.4G plegable RC Quadcopter Wifi FPV Selfie Drone - RTF</em>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="new_flash">
+            <a href="#" class="new_flash_title">
+                <strong>Lo más popular</strong>
+                <span>Más></span>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/es_Right_238x178.jpg">
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="../images/es_Right_238x178_2.jpg">
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="new_cate">
+            <ul>
+                <li><a href="https://m.cambialotodo.com/c/Magic-Cubes--Puzzles_001" class="cate">Accesorios para celular<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Toys--Hobbies_025" class="cate">Cámaras y accesorios de fotos<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Backpacks--Bags_035" class="cate">Juguetes y Pasatiempos<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Sports--Outdoor_023" class="cate">Dispositivo Inteligente y Seguridad<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Gifts--Party-Supplies_019" class="cate">Deportes y al aire libre<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Pets-Supplies_015" class="cate">Ropa y Joyería<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Consumer-Electronics_016" class="cate">Informática y papelería<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Health--Beauty_010" class="cate">Audio video<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Home--Garden_009" class="cate">Hogar & Jardín<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Lights--Lighting_027" class="cate">Salud y Belleza<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Arduino-SCM_018" class="cate">Accesorios de carro<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Apple-Accessories_005" class="cate">Equipos y herramientas de prueba<span class="arrow_2"><i><i></i></i></span></a></li>
+                <li><a href="https://m.cambialotodo.com/c/Temp_014" class="cate">Otros<span class="arrow_2"><i><i></i></i></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="myaccount_box new_myacc">
+            <ul>
+                <li>
+                    <a href="/customer/usercenter">
+                        <h4>Mi cuenta</h4>
+                        <span class="arrow_2"><i><i></i></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Customer/MyOrders">
+                        <h4>Mis ordenes</h4>
+                        <span class="arrow_2"><i><i></i></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Customer/WishGroup">
+                        <h4>Lista de deseos</h4>
+                        <span class="arrow_2"><i><i></i></i></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="new_footer">
+            <div class="new_footer_sign" id="bottom_welcome">
+                Ya eres un cliente?<a href="#">Registrarse</a></div>
+            <div class="new_footer_share">
+                <h3>Únete a nuestra comunidad</h3>
+                <div class="new_footer_share_iocn">
+                    <a target="_blank" rel="nofollow" href="https://www.facebook.com/cambialotodo" title="facebook cambialotodo" class="share1"><i></i></a>
+                    <a target="_blank" rel="nofollow" href="https://twitter.com/cambialotodo_com" title="twitter cambialotodo" class="share4"><i></i></a>
+                    <a target="_blank" rel="nofollow" href="http://vk.com/magiccubesincambialotodo" title="vk cambialotodo" class="share6"><i></i></a>
+                    <a target="_blank" rel="nofollow" href="http://www.youtube.com/user/cambialotodovideo" title="youtube cambialotodo" class="share3"><i></i></a>
+                </div>
+            </div>
+            <div class="new_footer_sub">
+                <p>Hoja informativa</p>
+                <span>No te pierdas las últimas ventas, cupones y próximos eventos!</span>
+                <form name="subscribe_form" action="#" method="get" class="form_inputbtn">
+                    <input name="email" type="text" value="" placeholder="Email Address">
+                    <input name="subscribe_btn" type="button" id="subscribe_btn" value="Subscribe">
+                </form>
+            </div>
+            <div class="new_footer_copy">
+                <ul>
+                    <li><a href="#">Home</a>|</li>
+                    <li><a href="#">Contáctenos</a>|</li>
+                    <li><a href="#" onclick="javascript:toFullSite()">Sitio completo</a>|</li>
+                    <li><a href="#">Mapa del sitio</a></li>
+                </ul>
+                <p>Derechos de autor © 2004 - 2018 TUULSOFT,C.A.</p>
+                <p>Todos los derechos reservados. (Build: 2305).</p>
+            </div>
+        </div>
+    </div>
+    <div class="popup_box" id="p_wish_add">
+        <div class="popup_content">
+            <div class="p_cont_box">
+                <div class="p_opt_type">
+                    <div class="popup_form">
+                        <input type="text" value="" placeholder="Create a Wishlist" class="input_text" />
+                    </div>
+                    <div class="popup_btn clearfix">
+                        <a href="javascript:;" class="btn_cancel">Cancelar</a>
+                        <a href="javascript:;" class="btn_sub btn_add_wl">Por supuesto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="filter_contr" style="display:none;">
+            <div class="shop_car" onClick="javascrtpt:window.location.href='shoppingcart.do'">
+                <em></em>
+            </div>
+            <div class="line_spacing"></div>
+            <div class="scroll_top">
+                <em></em>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="templates/default/js/common.js">
+    </script>
+    <script type="text/javascript" src="templates/default/js/jquery.lazyload.js">
+    </script>
+    <script type="text/javascript" src="templates/default/js/buy.js">
+    </script>
+    <script type="text/javascript" src="templates/default/js/jquery.cookie.js">
+    </script>
+    <script type="text/javascript" src="templates/default/js/jquery.jsonp.js">
+    </script>
+    <script type="text/javascript" src="templates/default/js/inobounce.min.js">
+    </script>
+    <script type="text/javascript">
+        $("img.bg_lazy").lazyload({
+            placeholder: "templates/default/images/white.gif",
+            effect: "fadeIn"
+        });
+    </script>
+
+</body>
+
+</html>

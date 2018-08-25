@@ -1,0 +1,1346 @@
+.btn_save.btn,
+.help_nav li i,
+.live_chat,
+
+.search_btn {
+    background: #4d82b8
+}
+
+.m_head_cart .order_price {
+    color: #333
+}
+
+.m_head_cart.order_number {
+    color: #999
+}
+
+.icon_arr_top {
+    background-image: url(../icon/iconsprite.png);
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: -390px -354px;
+    width: 13px;
+    height: 7px
+}
+
+.textbr {
+    white-space: normal;
+    word-wrap: break-word
+}
+
+.linethrough {
+    text-decoration: line-through
+}
+
+.rel {
+    position: relative
+}
+
+.abs {
+    position: absolute
+}
+
+.ovh {
+    overflow: hidden
+}
+
+.m_site_map {
+    width: 100%;
+    margin-top: 20px
+}
+
+.m_site_map .site_nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid#ccc;
+    padding: 15px 0;
+    text-align: center
+}
+
+.m_site_map.site_nav a {
+    margin: 0 8px;
+    border-bottom: 1px solid #666;
+    font-size: 14px
+}
+
+.m_site_map .site_nav .active {
+    border-bottom: 1px solid #f60;
+    color: #f60
+}
+
+.m_site_map.searchNone {
+    padding: 30px 10px;
+    text-align: center
+}
+
+.m_site_map.searchNone p {
+    margin-bottom: 20px
+}
+
+.m_site_map.site_bottom {
+    border-bottom: none
+}
+
+.m_site_map.site_letter_box {
+    margin-top: 40px
+}
+
+.m_site_map.site_letter_box.site_letter_list {
+    width: 100%;
+    color: #999
+}
+
+.m_site_map .site_letter_box .site_letter_list li {
+    width: 25%;
+    float: left;
+    height: 30px;
+    display: inline-block
+}
+
+.m_site_map .site_letter_box .site_letter_list .item_title {
+    font-size: 40px;
+    position: relative;
+    top: -10px;
+    color: #666
+}
+
+.m_brand {
+    margin-top: 20px
+}
+
+.m_brand h3 {
+    font-size: 19px;
+    color: #333;
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+    font-weight: 450
+}
+
+.m_brand h3 a {
+    color: #4d82b8;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 12px
+}
+
+.m_brand.ovh {
+    max-height: 214px
+}
+
+.m_brand ul {
+    display: table;
+    width: 100%;
+    text-align: left;
+    font-size: 0;
+    letter-spacing: -3px;
+    word-spacing: -3px;
+    padding: 10px 0
+}
+
+.m_brand ul>* {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    font-size: 12px;
+    letter-spacing: 0;
+    word-spacing: 0
+}
+
+.m_brand li {
+    width: 180px;
+    height: 86px;
+    margin: 10px;
+    border: 1px solid#e5f5f5;
+    overflow: hidden;
+    text-align: center;
+    transition: all .5 s;
+   -moz-transition: all .5 s;
+   -o-transition: all .5 s;
+   -ms-transition: all .5 s;
+   -webkit-transition: all .5 s
+}
+
+.m_brand li a {
+    display: block;
+    line-height: 86px
+}
+
+.m_brand li a img {
+    width: auto;
+    height: auto
+}
+
+.m_brand li: hover {
+    border: 1px solid#efefef;
+    box-shadow: 1px 2px 3px#ddd
+}
+
+.m_brand p {
+    font-size: 13px;
+    color: #999;
+    line-height: 24px
+}
+
+.m_brand p.p2 {
+    margin-top: 26px
+}
+
+.contentWarpLeft {
+    width: 945px
+}
+
+.newArrivals {
+    height: 285px
+}
+
+.bannerwrap {
+    height: 305px;
+    z-index: 1;
+    display: block;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 248px;
+    margin-top: 8px;
+    background: url(../icon/loading.gif?20170913) center center no-repeat
+}
+
+.bannerwrap .banner {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap
+}
+
+.bannerwrap .banner>li {
+    position: relative;
+    background-color: #f5f5f5
+}
+
+.bannerwrap.banner>li.imgBanner {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+.bannerwrap.banner>li.imgBanner: after {
+    content: "";
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.bannerwrap.banner>li.imgBanner: first-child {
+    display: block
+}
+
+.bannerwrap.banner>li img {
+    width: 100%;
+    height: 100%
+}
+
+.bannerwrap.leftArr,
+
+.bannerwrap.rightArr {
+    display: none;
+    margin-top: -23px
+}
+
+.bannerwrap.bannerPoint {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center
+}
+
+.bannerwrap.bannerPoint>b {
+    background-color: #fff;
+    cursor: pointer;
+    height: 12px;
+    margin: 0 5px;
+    width: 12px;
+    border: 1px solid#ccc;
+    border-radius: 12px
+}
+
+.bannerwrap.bannerPoint>b.point-on {
+    background-color: #4d82b8;
+    border-color: #fff
+}
+
+.bannerwrap.bannerPoint.img-block {
+    width: 100%
+}
+
+.smallBanner {
+    width: 705px;
+    margin-left: 248px;
+    margin-top: 6px
+}
+
+.smallBanner li {
+    margin-left: 3px;
+    width: 230px;
+    height: 130px;
+    background: #f5f5f5
+}
+
+.smallBanner li img {
+    max-width: 100%;
+    height: 100%
+}
+
+.smallBanner li: first-child {
+    margin-left: 0
+}
+
+.f_cate {
+    margin-top: 10px;
+    border-bottom: none
+}
+
+.categoriesWarp {
+    position: relative
+}
+
+.categoriesWarp.loading-ajax {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 9;
+    background: url(../icon/loading.gif) center center no-repeat rgba(255, 255, 255, .5)
+}
+
+.categoriesList {
+    margin-top: 10px;
+    display: none;
+    min-height: 495px
+}
+
+.categoriesList.block {
+    display: block
+}
+
+.categoriesWarp.categoriesList: nth-of -type(1).categoriesRight a,
+
+.categoriesWarp.categoriesList: nth-of -type(1).classSmallBanner a {
+    background: #f5f5f5
+}
+
+.categoriesClass li {
+    width: 130px;
+    *width: 120px;
+    height: 85px;
+    background-color: #f2f2f2;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 5px
+}
+
+.categoriesClass li: first-child {
+    margin-left: 0;
+    width: 135px;
+    *width: 125px
+}
+
+.categoriesClass li i {
+    font-size: 34px;
+    color: #999;
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 14px
+}
+
+.categoriesClass .categoriesAci {
+    background-color: #f90;
+    color: #fff
+}
+
+.categoriesClass.categoriesAci i {
+    color: #fff
+}
+
+#category_1,
+
+.tabletpc {
+    background-position: 0 0
+}
+
+#category_1235,
+
+.toys {
+    background-position: -70px 0
+}
+
+#category_1019,
+
+.home {
+    background-position: -140px 0
+}
+
+#category_63,
+
+.sports {
+    background-position: -210px 0
+}
+
+#category_1362,
+
+.caraccessories {
+    background-position: -280px 0
+}
+
+#category_1302,
+
+.video {
+    background-position: -350px 0
+}
+
+#category_864,
+
+.apparel {
+    background-position: -420px 0
+}
+
+#category_221,
+
+.computer {
+    background-position: -847px 0
+}
+
+#category_1109,
+
+.rcmodels {
+    background-position: -590px 0
+}
+
+#category_159,
+
+.testequipment {
+    background-position: -671px 0
+}
+
+#category_277,
+
+.cameras {
+    background-position: -930px 0
+}
+
+#category_354,
+
+.lighting {
+    background-position: -760px 0
+}
+
+#category_806,
+
+.health {
+    background-position: -1012px 0
+}
+
+#category_468,
+
+.musicalinstruments {
+    background-position: -501px 0
+}
+
+.categoriesAci#category_1,
+
+.categoriesAci.tabletpc {
+    background-position: 0-73px
+}
+
+.categoriesAci#category_1235,
+
+.categoriesAci.toys {
+    background-position: -70px-73px
+}
+
+.categoriesAci#category_1019,
+
+.categoriesAci.home {
+    background-position: -140px-73px
+}
+
+.categoriesAci#category_63,
+
+.categoriesAci.sports {
+    background-position: -210px-73px
+}
+
+.categoriesAci#category_1362,
+
+.categoriesAci.caraccessories {
+    background-position: -280px-73px
+}
+
+.categoriesAci#category_1302,
+
+.categoriesAci.video {
+    background-position: -350px-73px
+}
+
+.categoriesAci#category_864,
+
+.categoriesAci.apparel {
+    background-position: -420px-73px
+}
+
+.categoriesAci#category_221,
+
+.categoriesAci.computer {
+    background-position: -847px-73px
+}
+
+.categoriesAci#category_1109,
+
+.categoriesAci.rcmodels {
+    background-position: -590px-73px
+}
+
+.categoriesAci#category_159,
+
+.categoriesAci.testequipment {
+    background-position: -671px-73px
+}
+
+.categoriesAci#category_277,
+
+.categoriesAci.cameras {
+    background-position: -930px-73px
+}
+
+.categoriesAci#category_354,
+
+.categoriesAci.lighting {
+    background-position: -760px-73px
+}
+
+.categoriesAci#category_806,
+
+.categoriesAci.health {
+    background-position: -1012px-73px
+}
+
+.categoriesAci#category_468,
+
+.categoriesAci.musicalinstruments {
+    background-position: -501px-73px
+}
+
+.categoriesLeft {
+    width: 705px
+}
+
+.hotSearch_class {
+    height: 53px;
+    overflow: hidden;
+    margin-top: 17px
+}
+
+.hotSearch_class>a {
+    padding: 2px 6px;
+    margin: 3px 8px 3px 0;
+    border: 1px solid#ccc;
+    border-radius: 15px
+}
+
+.hotSearch_class>a: hover {
+    background-color: #f90;
+    border: 1px solid#f90;
+    color: #fff;
+    text-decoration: underline
+}
+
+.hotSearch_class>p {
+    padding: 2px 6px;
+    margin: 3px 3px 3px 0;
+    font-size: 14px
+}
+
+.classSmallBanner {
+    margin-top: 10px
+}
+
+.classSmallBanner>a {
+    width: 230px;
+    height: 130px;
+    overflow: hidden;
+    margin-left: 8px;
+    text-align: center
+}
+
+.classSmallBanner>a: after {
+    content: "";
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.classSmallBanner>a: first-child {
+    margin-left: 0
+}
+
+.classSmallBanner>a img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.categoriesRight {
+    width: 230px;
+    margin-left: 10px
+}
+
+.categoriesRight>a {
+    display: block;
+    overflow: hidden;
+    height: 350px;
+    text-align: center
+}
+
+.categoriesRight>a: after {
+    content: "";
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.categoriesRight>a img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.cateProduct {
+    height: 280px
+}
+
+.cateProduct.productList {
+    width: 235px;
+    *width: 219px;
+    padding: 7px;
+    text-align: center
+}
+
+.cateProduct.productList.productPrice {
+    font-size: 18px
+}
+
+.cateProduct.productList.productImg {
+    display: block;
+    width: 220px;
+    height: 220px;
+    overflow: hidden
+}
+
+.voicesTitle {
+    font-size: 20px;
+    color: #333;
+    margin-top: 35px
+}
+
+.customersVoices {
+    margin-top: 15px
+}
+
+.customersVoices>li {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 300px;
+    *width: 288px;
+    padding: 5px;
+    margin-left: 22px
+}
+
+.customersVoices>li: first-child {
+    margin-left: 0
+}
+
+.customersVoices>li>p {
+    border-bottom: 1px solid#ccc;
+    padding: 10px 50px 10px 8px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative
+}
+
+.customersVoices>li>p a {
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 11px
+}
+
+.customersVoices>li ol>li {
+    padding: 10px 0;
+    border-top: 1px dashed #ccc
+}
+
+.customersVoices>li ol>li: first-child {
+    border-top: 0
+}
+
+.customersVoices>li ol>li>a {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center
+}
+
+.customersVoices>li ol>li>a img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.customersVoices>li ol>li>div {
+    margin-left: 5px;
+    width: 210px
+}
+
+.customersVoices>li ol>li>div p {
+    color: #666;
+    height: 30px;
+    line-height: 12px;
+    overflow: hidden
+}
+
+.customersVoices>li ol>li>div p span {
+    color: #999
+}
+
+.customersVoices>li ol>li>div p: first-child {
+    margin-bottom: 5px;
+    line-height: 15px;
+    color: #666;
+    height: 30px;
+    overflow: hidden
+}
+
+.brandAD {
+    margin-top: 25px
+}
+
+.brandAD li {
+    width: 300px;
+    height: 185px;
+    overflow: hidden;
+    margin-left: 22px
+}
+
+.brandAD li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.brandAD li a:after {
+    content: "";
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.brandAD li:first-child {
+    margin-left: 0
+}
+
+.brandAD li img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.topBandsTxt {
+    line-height: 20px;
+    color: #999
+}
+
+.contentWarpRight {
+    margin-top: 10px;
+    width: 240px;
+    margin-left: 8px
+}
+
+.dailyDeals {
+    height: 306px;
+    background: url(../icon/loading.gif) center center no-repeat
+}
+
+.dailyDealsTitle {
+    font-size: 16px;
+    font-weight: 450;
+    border-bottom: 1px solid#ccc;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    color: #333;
+    background-color: #fff
+}
+
+.dailyDealsTitle>p {
+    font-size: 14px;
+    float: right;
+    *margin-top: -25px
+}
+
+.dealsTime {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, .8)
+}
+
+.dealsTime.lineBlock {
+    vertical-align: middle
+}
+
+.dealsTime.icon_clock {
+    font-size: 20px;
+    color: #999
+}
+
+.dealsTime span {
+    border: 1px solid #ddd;
+    padding: 0 3px;
+    border-radius: 2px;
+    margin-left: 1px;
+    margin-right: 3px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 400
+}
+
+.dealsWarp {
+    text-align: center;
+    position: relative;
+    background-color: #fff
+}
+
+.dealsWarp.moveHidden {
+    width: 240px;
+    margin: 0 auto;
+    height: 275px
+}
+
+.dealsWarp.productPrice {
+    font-size: 18px
+}
+
+.dealsWarp.productClass {
+    width: 240px;
+    box-shadow: none;
+    border-color: transparent;
+    text-align: center;
+    background: #fff
+}
+
+.dealsWarp.productClass.productImg {
+    width: 220px;
+    margin-top: 20px;
+    height: 172px
+}
+
+.dealsWarp.dealsTime {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.dealsWarp: hover.leftArr,
+.dealsWarp: hover.rightArr {
+    display: block
+}
+
+.superDeals a {
+    display: block;
+    width: 230px;
+    height: 130px;
+    background: #f5f5f5
+}
+
+.superDeals a img {
+    width: 100%;
+    height: 100%
+}
+
+.moneyWarp {
+    width: 100%;
+    margin-top: 12px;
+    overflow: hidden
+}
+
+.moneyWarp li {
+    text-align: center;
+    margin-right: 10px;
+    width: 105px;
+    height: 105px
+}
+
+.moneyWarp li img {
+    width: 100%;
+    display: none
+}
+
+.moneyWarp li: first-child {
+    background-image: url(../icon/imgsprite.png);
+    background-repeat: no-repeat;
+    background-position: 0-100px
+}
+
+.moneyWarp li: last-child {
+    background-image: url(../icon/imgsprite.png);
+    background-repeat: no-repeat;
+    background-position: -105px-100px
+}
+
+.indexRightTitle {
+    font-size: 16px;
+    color: #333;
+    padding: 12px 5px
+}
+
+.scrollRightWarp {
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px
+}
+
+.scrollRightWarp .scrollRightMove {
+    width: 100%
+}
+
+.listRightPro li {
+    border-bottom: 1px dashed #f2f2f2;
+    padding: 8px 0;
+    height: 82px;
+    *height: 65px
+}
+
+.listRightPro li>a {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    color: #666
+}
+
+.listRightPro li>a img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.listRightPro li>div {
+    width: 160px;
+    margin-left: 10px;
+    color: #999
+}
+
+.listRightPro li>div.scrollTitle {
+    height: 28px;
+    overflow: hidden;
+    display: block;
+    line-height: 14px;
+    margin-bottom: 5px
+}
+
+.listRightPro li>div.scrollPrice {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f60
+}
+
+.listRightPro li>div.scrollShip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.rightBanner li {
+    width: 240px;
+    height: 178px;
+    margin-bottom: 10px;
+    border: 1px solid#f2f2f2;
+    overflow: hidden;
+    background: #f5f5f5
+}
+
+.rightBanner li a {
+    display: block;
+    text-align: center;
+    height: 178px
+}
+
+.rightBanner li a: after {
+    content: "";
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0
+}
+
+.rightBanner img {
+    max-width: 100%;
+    display: inline-block
+}
+
+.icon-Close {
+    width: 15px;
+    height: 15px;
+    background-image: url(../icon/icon_small.png);
+    background-repeat: repeat-x;
+    background-position: -140px-70px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px
+}
+
+.freePointWrap.freePoint {
+    background: url(../icon/loading.gif) center 100px no-repeat#fff
+}
+
+.freePointWrap.freePoint.free_tt ul li {
+    margin: 10px 0
+}
+
+.freePointWrap.freePoint.free_tt ul li span {
+    margin-right: 8px;
+    padding-left: 20px;
+    line-height: 24px;
+    color: #2874c1;
+    text-align: center;
+    display: inline-block;
+    background: url(../icon/free_picon.png) -86px -4px no-repeat;
+    width: 97px;
+    height: 32px
+}
+
+.freePointWrap .freePoint .free_tt ul .t1 {
+    margin-top: -5px;
+    line-height: 20px
+}
+
+.freePointWrap .freePoint .free_tt ul .t1 em {
+    font-style: normal;
+    color: #fd4500
+}
+
+.freePointWrap.freePoint.free_tt ul.t2 {
+    margin-bottom: 0
+}
+
+.freePointWrap.freePoint.free_tt ul.t2 input {
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px
+}
+
+.freePointWrap.freePoint.free_tt ul.t2.subEmail {
+    width: 315px
+}
+
+.freePointWrap.freePoint.free_tt ul.t2.btn-orange {
+    position: absolute;
+    width: 100px;
+    line-height: 30px;
+    color: #fff;
+    background: #000;
+    border-color: #000;
+    border-radius: 0
+}
+
+.freePointWrap.freePoint.free_tt ul.t3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 15px
+}
+
+.freePointWrap.freePoint.free_tt ul.t3 em.good {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    background: url(../icon/free_picon.png) 6px 2px no-repeat
+}
+
+.freePointWrap.freePoint.free_tt ul.t5 {
+    width: 430px;
+    border: 1px solid#cecece;
+    color: #888;
+    min-height: 50px;
+    padding: 15px;
+    position: relative
+}
+
+.freePointWrap .freePoint .free_tt ul .t5 em {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 36px;
+    height: 34px;
+    background: url(../icon/free_picon.png) -40px 0 no-repeat
+}
+
+.freePointWrap .freePoint .free_tt ul .t6 em.free_tip {
+    font-style: normal;
+    color: #2874 c1;
+    border-bottom: 1px solid #2874c1
+}
+
+.faceBookWarp {
+    margin-top: 9px;
+    width: 240px;
+    height: 212px;
+    overflow: hidden
+}
+
+.pagingWarp {
+    height: 50px;
+    margin-top: 25px;
+    line-height: 50px;
+    padding: 0 30px;
+    position: relative;
+    text-align: center
+}
+
+.pagingWarp .pageN,
+.pagingWarp .pageN a,
+.pagingWarp .pageP,
+
+.pagingWarp .pageP a {
+    font-size: 18px
+}
+
+.pagingWarp .pageP {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    color: #999
+}
+
+.pagingWarp.pageN {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    color: #999
+}
+
+.pagingWarp .pageClick a {
+    color: #f60
+}
+
+.pagingWarp.pageClick {
+    color: #f60;
+    cursor: pointer
+}
+
+.pagingWarp.pageClick.pageP.icon-pageP {
+    background-image: url(../icon/icon_small.png);
+    background-repeat: repeat-x;
+    background-position: -70px-66px;
+    display: inline-block;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1
+}
+
+.pagingWarp.pageClick.pageN.icon-pageN {
+    background-image: url(../icon/icon_small.png);
+    background-repeat: repeat-x;
+    background-position: -98px-66px;
+    display: inline-block;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1
+}
+
+.pagingWarp.pageLink {
+    text-align: center
+}
+
+.pagingWarp.pageLink a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid#ccc;
+    background-color: #fff;
+    line-height: 30px;
+    margin: 10px 5px 0;
+    *margin-top: 0
+}
+
+.pagingWarp.pageLink.active {
+    border-color: #f60;
+    color: #fff;
+    background-color: #f60
+}
+
+.Bread_crumbs li h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #4d82b8;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.freePointWrap {
+    font-family: Arial;
+    z-index: 1000;
+    display: none;
+    cursor: pointer
+}
+
+.freePointWrap .icon-Close {
+    width: 26px;
+    height: 26px;
+    background: url(../icon/icon_close_ad.png);
+    position: absolute
+}
+
+.freePointWrap .freePoint h5 {
+    padding-left: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000
+}
+
+.freePointWrap.freePoint h5 b {
+    color: #fd4500
+}
+
+.freePointWrap.freePoint h5 i {
+    font-size: 36px;
+    font-style: normal
+}
+
+.freePointWrap.freePoint.free_tt {
+    width: 100%;
+    padding: 0;
+    color: #000;
+    font-size: 14px
+}
+
+.freePointWrap .freePoint .free_email {
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    height: 118px;
+    bottom: 25px;
+    text-align: center
+}
+
+.freePointWrap .freePoint .free_email .free_email_content {
+    margin-right: 3px;
+    vertical-align: 0;
+    width: 230px;
+    height: 25px;
+    border: 1px solid #fff
+}
+
+.freePointWrap.freePoint.free_email.free_email_submit {
+    background: #ffc000;
+    width: 75px;
+    line-height: 25px
+}
+
+.freePointWrap.freePoint.free_email p {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    text-decoration: underline
+}
+
+.freePointWrap.freePoint.free_email p>a {
+    color: #ffc000;
+    font-size: 14px
+}
+
+.freePointWrap.freePoint.free_email p.error_info,
+
+.freePointWrap.freePoint.free_email p.error_info_blank {
+    margin-top: 4px;
+    display: none;
+    height: 16px;
+    color: #ce352c;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 141px
+}
+
+.freePointWrap.freePoint.free_email>a {
+    background: #ffc000;
+    padding: 3px 20px;
+    border-radius: 10px
+}
+
+.freePointWrap.freePoint.free_email>a: hover {
+    color: #333
+}
+
+.freePointWrap .freePoint#index_dialogAd2.info_wrap {
+    padding: 0
+}
+
+.freePointWrap.freePoint#index_dialogAd2.info_wrap>a {
+    width: 155px;
+    height: 59px;
+    background: 0 0;
+    padding: 0;
+    border-radius: 0;
+    position: absolute;
+    left: 250px;
+    top: 193px;
+    overflow: hidden;
+    text-indent: 9999 em
+}
+
+.freePointWrap.freePoint#index_dialogAd2.info_wrap p {
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0
+}
+
+.freePointWrap.freePoint#index_dialogAd2.info_wrap p a {
+    color: #fff
+}
+
+// This is just a sample script. Paste your real code (javascript or HTML) here.
+
+if ('this_is'==/an_example/) {
+    of_beautifier();
+}
+
+else {
+    var a=b?(c% d): e[f];
+}
