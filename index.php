@@ -3742,7 +3742,8 @@
                                         </span>
                                     </div>
                                 </div>
-                                <a id="GACLICK+index+newArrivals-T+PZ0284B-US-32+00" class="productTitle GATitle" href="#" title="Lenovo S5 K520 4G Smartphone 3G RAM 32G ROM Face ID">Lenovo S5 K520 4G Smartphone 3G RAM 32G ROM Face ID</a>
+                                <!--Julio Nuñez-->
+                                <a class="productTitle GATitle" href="#" title="Lenovo S5 K520 4G Smartphone 3G RAM 32G ROM Face ID">Lenovo S5 K520 4G Smartphone 3G RAM 32G ROM Face ID</a>
                                 <p class="GAPrice productPrice pricelab" usvalue="144.00">Bs.123,98</p>
                             </li>
                             <li class="moveList productClass GAClickBox">
